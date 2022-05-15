@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ethical hacking</title>
+    <link rel="icon" type="img" href="https://cdn3.vectorstock.com/i/1000x1000/38/77/cyber-hacker-icon-simple-style-vector-28643877.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="background">
+    <<style>
+       
+        .ops1{
+     background-image: url(https://images.pexels.com/photos/1878095/pexels-photo-1878095.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+     height: 1000px;
+     width: auto;
+     padding: 0px;
+     margin: 0px;
+      background-repeat: no-repeat, repeat;
+ 
+ }
+ .background{
+    
+    background-image: url(img/drew-beamer-Lhgt4JjW-hs-unsplash.jpg);
+    height: 700px;
+    width: 487px;
+  
+  }
+  
+ .btn{
+     margin-top: 10px;
+     margin-left: 10px;
+     background-color: aqua;
+     border-radius: 5px;
+ 
+ 
+ }
+ #robi{
+     color:black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+ }
+ 
+ #inp1{
+ 
+ 
+ }
+ span{
+     font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+     </style>
+     <div class="ops1">
+         
+         <h1 id="robi">application form</h1>
+         <div class="sec">
+ 
+             <div class="type">
+ 
+             <label for="name"><span>Name</span></label>
+             <input placeholder="@Name" type="text" size="10px" maxlength="20">
+ 
+             <label for="fath"><span> father name</span></label>
+             <input type="text" size="10px" placeholder="@name">
+           <br> <br>
+             <label for="adr"><span>adress</span></label>
+             <textarea name="" id="" cols="" rows=""></textarea>
+             
+         </div>
+ 
+             <h3 class="cout"><span>country</span></h3>
+ 
+             <select>
+                 <option name="i"> india </option>
+                 <option name="x"> america </option>
+                 <option name="y"> united states</option>
+                 <option name="c"> china </option>
+             </select>
+ 
+             <h3 class="gen"><span>gender</span></h3>
+             <input type="radio" name="a"> male
+             <input type="radio" name="a"> female
+ 
+             <h3 class="course"><span>country</span></h3>
+ 
+             <input type="checkbox">
+             <label for=java">Java</label><br>
+ 
+             <input type="checkbox">
+             <label for="py">python</label><br>
+ 
+             <input type="checkbox">
+             <label for="js">span</label><br>
+ 
+             <input type="checkbox">
+             <label for="cp">C Programming</label><br>
+ 
+             <div class="dob">
+ 
+                 <label for="dob">Dob</label>
+                 <input type="date">
+ 
+                 <label for="pass">Password</label>
+                 <input type="password" maxlength="8">
+ 
+                 <div id="btndiv">
+                    p>Click the button to get your coordinates.</p>
+
+<button class="btn" onclick="getLocation()">submit</button>
+<button class="btn">cancel</button>
+
+<p id="demo"></p>
+                 </div>
+             </div>
+         </div>
+ 
+ 
+ 
+ 
+ 
+         </pre>
+     </div>
+ 
+</div>
+<script>
+   var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+
+    </script>
+
+    
+</body>
+</html>
