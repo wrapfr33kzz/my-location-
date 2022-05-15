@@ -13,4 +13,4 @@
 <h2 align="center">
 ──「 join us on telegram 」──
 </h2>
-  <a href="(https://t.me/delta_D_squad">[TEAM DELTA]</a>
+  <a href="https://t.me/delta_D_squad">[TEAM DELTA]</a>
