@@ -14,4 +14,3 @@
 ──「 join us on telegram 」──
 </h2>
 [TEAM DELTA](https://t.me/delta_D_squad)
-</h2>
