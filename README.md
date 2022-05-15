@@ -13,5 +13,5 @@
 <h2 align="center">
 ──「 join us on telegram 」──
 </h2>
-<h2>[TEAM DELTA](https://t.me/delta_D_squad)
+[TEAM DELTA](https://t.me/delta_D_squad)
 </h2>
